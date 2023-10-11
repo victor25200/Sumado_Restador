@@ -21,21 +21,3 @@ Nicolas Peña Garzon.
 ## sumador-restador
 
 ![restador](https://github.com/victor25200/Sumado_Restador/assets/143362267/38ac561a-e690-492e-80cc-d03aa8f9cb7f)
-
-module Sumador_Restador (
-  // Se declaran las puertas y entradas del sumador restador 
-  input inb_3, inb_2, inb_1, inb_0,ina_3, ina_2, ina_1, ina_0, inci_0, 
-  output outs_4, outs_3, outs_2, outs_1, outs_0 
-);
-
-
-// Se declaran los cables que se van a utilizar 
-wire xor_to_inb_3; 
-wire xor_to_inb_2; 
-wire xor_to_inb_1; 
-wire xor_to_inb_0; 
-
-
-// Declaración de submodules
-// Se utiliza un Sumador de 4 bits y se conecta sus entradas y salidas segun corresponda l
-//Sumador_4bits (inb3, inb2, inb1, inb0,ina3, ina2, ina1, ina0, 
