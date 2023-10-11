@@ -36,6 +36,8 @@ el sumador restador es opera entre señales logicas y la operacion que haga depe
 -Cuando la señal de control se establece en modo suma, el circuito opera como un sumador estándar. Suma las entradas A y B y produce el resultado de la suma en la salida de suma.
 
 -Cuando la señal de control se establece en modo resta, el circuito opera como un sumador/restador y realiza una operación de resta. En este caso, la entrada B se invierte (cambian los 0 a 1 y viceversa) y se suma a la entrada A. El resultado de la resta se proporciona en la salida de resta.
+
 [Sumador_Restador.v](fulladder/Sumador_Restador.v)
+
 [Sumador_Restador_tb.v](fulladder/Sumador_Restador_tb.v)
 ![restador](https://github.com/victor25200/Sumado_Restador/assets/143362267/38ac561a-e690-492e-80cc-d03aa8f9cb7f)
