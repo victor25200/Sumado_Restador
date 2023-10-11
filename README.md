@@ -27,11 +27,14 @@ module Sumador_Restador (
   input inb_3, inb_2, inb_1, inb_0,ina_3, ina_2, ina_1, ina_0, inci_0, 
   output outs_4, outs_3, outs_2, outs_1, outs_0 
 );
+
+
 // Se declaran los cables que se van a utilizar 
 wire xor_to_inb_3; 
 wire xor_to_inb_2; 
 wire xor_to_inb_1; 
 wire xor_to_inb_0; 
+
 
 // Declaración de submodules
 // Se utiliza un Sumador de 4 bits y se conecta sus entradas y salidas segun corresponda l
