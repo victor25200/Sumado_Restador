@@ -41,3 +41,7 @@ el sumador restador es opera entre señales logicas y la operacion que haga depe
 
 [Sumador_Restador_tb.v](fulladder/Sumador_Restador_tb.v)
 ![restador](https://github.com/victor25200/Sumado_Restador/assets/143362267/38ac561a-e690-492e-80cc-d03aa8f9cb7f)
+
+## simulaciones
+![image](https://github.com/victor25200/Sumado_Restador/assets/143362267/29124b65-63ba-4704-84c9-a63a17081c7a)
+
