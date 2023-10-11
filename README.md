@@ -12,5 +12,5 @@ Nicolas Peña Garzon.
 
 ## medio sumador
 ![med](https://github.com/victor25200/Sumado_Restador/assets/143362267/6d5695f9-185a-4793-b911-a789bf7870ae)
-
+ 
 ## sumador 4bits
