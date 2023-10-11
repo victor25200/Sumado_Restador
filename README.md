@@ -21,8 +21,9 @@ Los sumadores son componentes fundamentales en sistemas digitales y se utilizan 
 [MedioSumador_tb.v](https://github.com/victor25200/Sumado_Restador/blob/main/fulladder/fulladder_tb.v)
 
 ![Medio Sumador](https://github.com/victor25200/Sumado_Restador/assets/143362267/6d5695f9-185a-4793-b911-a789bf7870ae)
- El medio sumador se utiliza cuando se deben sumar dos bits individuales y no se considera ningún acarreo de entrada desde una etapa anterior. Para sumar números de varios bits, se pueden conectar varios medios sumadores en cascada, utilizando la salida Cout de uno como entrada Cin (acarreo de entrada) para el siguiente. 
+ El medio sumador se utiliza cuando se deben sumar dos bits individuales y no se considera ningún acarreo de entrada desde una etapa anterior. Para sumar números de varios bits, se pueden conectar varios medios sumadores en cascada, utilizando la salida Cout de uno como entrada Cin  para el siguiente. 
 ## sumador 4bits
+Un sumador de 4 bits, también conocido como sumador de 4 bits completo, es un circuito combinacional que suma dos números binarios de 4 bits cada uno y produce una suma de 4 bits y un acarreo de salida. en este caso construimos el sumador de 4 bits a partir de 4 sumadores de 1 bit en cascada , como se muestra en la imagen
 [Sumador4bits.v](fulladder/Sumador_4bits.v)
 [Sumador4bits_tb.v](fulladder/Sumador_4bits_tb.v)
 
@@ -30,6 +31,10 @@ Los sumadores son componentes fundamentales en sistemas digitales y se utilizan 
 
 
 ## sumador-restador
+el sumador restador es opera entre señales logicas y la operacion que haga depende de una señal de control que seleccione esta.
+-Cuando la señal de control se establece en modo suma, el circuito opera como un sumador estándar. Suma las entradas A y B y produce el resultado de la suma en la salida de suma.
+
+-Cuando la señal de control se establece en modo resta, el circuito opera como un sumador/restador y realiza una operación de resta. En este caso, la entrada B se invierte (cambian los 0 a 1 y viceversa) y se suma a la entrada A. El resultado de la resta se proporciona en la salida de resta.
 [Sumador_Restador.v](fulladder/Sumador_Restador.v)
 [Sumador_Restador_tb.v](fulladder/Sumador_Restador_tb.v)
 ![restador](https://github.com/victor25200/Sumado_Restador/assets/143362267/38ac561a-e690-492e-80cc-d03aa8f9cb7f)
