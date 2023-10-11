@@ -6,7 +6,7 @@ Daniel Felipe Castro Galindo.
 
 Nicolas Peña Garzon. 
 
-# Laboratorio 2 eléctronica digital
+# Laboratorio 2 eléctronica digital 
 las diferentes compuertas se conforman de dos segmentos uno que es el *compuerta.v* en la cual se declaran las variables de entradas y salidas de la compuerta, asi como las conexiones y las subfunciones que van a componer la compuerta y el segunto segmento *compuerta_tb.v* en el cual se define como interactuan estas variables y la logica que va detras para el funcionamiento de la compuerta. 
 ## sumador
 Los sumadores son componentes fundamentales en sistemas digitales y se utilizan para sumar dos o más señales binarias, que generalmente representan números en formato binario. Hay varios tipos de sumadores, pero uno de los más comunes es el sumador binario de 1 bit, también conocido como sumador completo de 1 bit
