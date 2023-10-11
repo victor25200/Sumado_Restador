@@ -4,7 +4,7 @@ Victor Sebastian Santiago Acosta.
 
 Daniel Felipe Castro Galindo.
 
-Nicolas Peña Garzon.
+Nicolas Peña Garzon. 
 
 # Laboratorio 2 eléctronica digital
 ## sumador
