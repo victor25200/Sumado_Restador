@@ -32,6 +32,7 @@ Un sumador de 4 bits, también conocido como sumador de 4 bits completo, es un c
 
 ## sumador-restador
 el sumador restador es opera entre señales logicas y la operacion que haga depende de una señal de control que seleccione esta.
+
 -Cuando la señal de control se establece en modo suma, el circuito opera como un sumador estándar. Suma las entradas A y B y produce el resultado de la suma en la salida de suma.
 
 -Cuando la señal de control se establece en modo resta, el circuito opera como un sumador/restador y realiza una operación de resta. En este caso, la entrada B se invierte (cambian los 0 a 1 y viceversa) y se suma a la entrada A. El resultado de la resta se proporciona en la salida de resta.
