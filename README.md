@@ -11,7 +11,7 @@ las diferentes compuertas se conforman de dos segmentos uno que es el *compuerta
 ## sumador
 Los sumadores son componentes fundamentales en sistemas digitales y se utilizan para sumar dos o más señales binarias, que generalmente representan números en formato binario. Hay varios tipos de sumadores, pero uno de los más comunes es el sumador binario de 1 bit, también conocido como sumador completo de 1 bit
 
-[Sumador.v](fulladder/fulladder.v)
+[Sumador.v](fulladder/fulladder.v) 
 [Sumador_tb.v](fulladder/fulladder_tb.v)
 
 ![Sumador](https://github.com/victor25200/Sumado_Restador/assets/143362267/051b719b-5184-4c5e-93dd-ab97724bb099)
