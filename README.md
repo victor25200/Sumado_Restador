@@ -2,7 +2,7 @@
 ### Integrantes grupo 4
 Victor Sebastian Santiago Acosta.
 
-Daniel Felipe Castro Galindo.
+Daniel Felipe Castro Galindo. 
 
 Nicolas Peña Garzon. 
 
